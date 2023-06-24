@@ -4,7 +4,7 @@ import '../Cards/Cards.css'
 export default function Card({title, imageSource, extract, url, targetBlank}) {
   return (
     <>
-        <div className="card text-center bg-dark">
+        <div className="card text-center bg-dark animate__animated animate__bounce">
             <div className="contain-overflow">
               <img src={imageSource}  className="img-featured" alt=""/>
             </div>
