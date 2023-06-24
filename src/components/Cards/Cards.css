@@ -1,0 +1,26 @@
+.card:hover {
+    box-shadow: 5px 10px 20px 1px #c62c41;
+    transition: all 0.7s linear;
+}
+
+.card-body{
+    padding: 40px 0;
+}
+
+.card-text {
+    padding: 10px 10px;
+    font-size: 1rem;
+}
+
+.contain-overflow{
+    overflow: hidden;
+}
+
+.img-featured {
+    width: 100%;
+    transition: all 0.2S ease-in-out;
+}
+
+.img-featured:hover {
+    transform: scale(1.8);
+}
